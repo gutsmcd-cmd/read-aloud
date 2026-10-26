@@ -1,0 +1,22 @@
+{
+  "name": "read-aloud",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "読みきかせ / Read Aloud — your phone reads text, PDFs and web pages out loud.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/icons.mjs && tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "pdfjs-dist": "4.10.38"
+  },
+  "devDependencies": {
+    "sharp": "0.33.5",
+    "typescript": "5.9.3",
+    "vite": "6.4.3",
+    "vite-plugin-pwa": "0.21.2"
+  }
+}
